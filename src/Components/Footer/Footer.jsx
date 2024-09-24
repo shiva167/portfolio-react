@@ -1,6 +1,6 @@
 import { memo, Suspense } from 'react';
-import footerMd from '../../assets/images/mdImages/footerMd.webp'
-import footerSm from '../../assets/images/smImages/footerSm.webp'
+import footerMd from '../../assets/images/mdImages/footerMd.png'
+import footerSm from '../../assets/images/smImages/footerSm.png'
 
 const Footer = () => {
   return (
@@ -25,15 +25,15 @@ const Footer = () => {
       </Suspense>
       <p className="font-bold leading-loose text-xl">Made with ❤️ by Shiva</p>
       <p className="leading-loose flex flex-col md:inline text-lg">
-        <a href="mailto:arshilamaanansari@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-amber-950">
+        <a href="mailto:agrawalshiva871@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-amber-950">
           agrawalshiva871@gmail.com
         </a>
         <span className="hidden md:inline-block">⦿</span>
-        <a href="tel:+91-7786989680" className="hover:text-amber-950">
+        <a href="tel:+91-7456048309" className="hover:text-amber-950">
           +91-7456048309
         </a>
         <span className="hidden md:inline-block">⦿</span>
-        <a href="https://www.linkedin.com/in/arshil-amaan/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-950">
+        <a href="https://www.linkedin.com/in/shiva-agrawal/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-950">
           linkedin.com/in/shiva-agrawal/
         </a>
       </p>

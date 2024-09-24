@@ -5,7 +5,7 @@ const ReactNebula = lazy(() => import('@flodlc/nebula').then(module => ({ defaul
 const LazyFade = lazy(() => import('react-awesome-reveal').then(module => ({ default: module.Fade })));
 const LazySlide = lazy(() => import('react-awesome-reveal').then(module => ({ default: module.Slide })));
 const Hero = () => {
-    const word1 = "Brilliant";
+    const word1 = "Scribsebi";
     const word2 = "Solutions";
 
     const getSpan = (word) => {

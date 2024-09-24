@@ -1,7 +1,7 @@
 import React, { lazy, Suspense, useCallback, useEffect, useMemo, useState } from 'react';
 import debounce from 'lodash.debounce';
-import myImgSm from '../../assets/images/smImages/about-sm.webp';
-import myImgMd from '../../assets/images/mdImages/about-md.webp';
+import myImgSm from '../../assets/images/smImages/about-sm.png';
+import myImgMd from '../../assets/images/mdImages/about-md.png';
 
 const AttentionSeeker = lazy(() => import('react-awesome-reveal').then(module => ({ default: module.AttentionSeeker })));
 const Bounce = lazy(() => import('react-awesome-reveal').then(module => ({ default: module.Bounce })));
@@ -47,8 +47,8 @@ const About = () => {
 
                 <div className='text-justify md:text-left md:leading-9 h-fit transition-transform duration-300 text-lg md:text-2xl mt-10 mb-10 md:mb-20 md:font-semibold md:border-l-4 md:border-amber-400 md:pl-6 rounded-xl'>
                     I'm <Suspense fallback={<span className="animate-pulse">Shiva Agrawal</span>}>
-                        <AttentionSeeker className='border-b-4 drop-shadow-2xl border-b-slate-800 md:border-b-amber-400 rounded-lg inline-block font-bold text-2xl md:text-5xl md:text-amber-400 font-beauty'>Arshil Amaan Ansari</AttentionSeeker>
-                    </Suspense>, a Full Stack Developer based in Lucknow, India. With a deep expertise in React.js, JavaScript, and backend technologies like SQL and Docker, I've engineered robust solutions that bridge dynamic front-end experiences with powerful backend systems. From crafting sleek, responsive interfaces to architecting scalable enterprise systems, I ensure that every layer of the tech stack—from pixel-perfect UI components to seamless API integrations—works in harmony. Whether it's developing real-time applications with Firebase or refining user interactions with CSS and Redux, I'm passionate about delivering end-to-end solutions that are not just functional but intuitive and engaging.
+                        <AttentionSeeker className='border-b-4 drop-shadow-2xl border-b-slate-800 md:border-b-amber-400 rounded-lg inline-block font-bold text-2xl md:text-5xl md:text-amber-400 font-beauty'>Shiva Agrawal</AttentionSeeker>
+                    </Suspense>, a Full Stack Developer based in Aligarh, India. With a deep expertise in React.js, JavaScript, and backend technologies like SQL and Docker, I've engineered robust solutions that bridge dynamic front-end experiences with powerful backend systems. From crafting sleek, responsive interfaces to architecting scalable enterprise systems, I ensure that every layer of the tech stack—from pixel-perfect UI components to seamless API integrations—works in harmony.  I'm passionate about delivering end-to-end solutions that are not just functional but intuitive and engaging.
                 </div>
                 <div className='justify-center md:justify-start md:ml-6 relative flex'>
                     <Suspense fallback={<button>Hire Me</button>}>
